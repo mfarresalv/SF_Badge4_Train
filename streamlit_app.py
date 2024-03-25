@@ -1,9 +1,9 @@
-import streamlit as st
+import streamlit
 import snowflake.connector
 #from snowflake.snowpark.functions import col
 
 
-st.title("Zena's Amazing Athleisure Catalog")
+streamlit.title("Zena's Amazing Athleisure Catalog")
 #st.selectbox('Pick a sweatsuit color or style')
 
 
